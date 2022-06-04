@@ -580,6 +580,7 @@ img {
 }
 .modal-button {
 	position: absolute;
+	background-color: transparent;
 	top: 8px;
 	right: 8px;
 	width: 30px;
@@ -612,7 +613,7 @@ img {
 	fill: var(--white);
 	margin-left: 10px;
 }
-.submit-button {
+.submit-button-footer {
 	width: 200px;
 	background-color: var(--accent-color);
 	display: flex;
@@ -637,7 +638,6 @@ img {
 	background-color: var(--background-black);
 	padding: 15px 16px;
 	color: var(--white);
-	margin-top: 20px;
 }
 .subscribe-input::placeholder {
 	color: rgba(255, 255, 255, 0.6);
@@ -645,6 +645,7 @@ img {
 .subscribe-label {
 	display: flex;
 	align-items: flex-end;
+	margin-top: 20px;
 }
 .subscribe-title {
 	font-size: 14px;
@@ -716,10 +717,9 @@ img {
 }
 .agreement {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-left: 12px;
-	margin-right: 12px;
 }
 .submit-button {
 	margin-left: auto;
@@ -734,10 +734,16 @@ img {
 	border: none;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	display: flex;
+	align-items: center;
 
 	cursor: pointer;
 
 	background-color: var(--accent-color);
+}
+.link-in-modal {
+	color: var(--accent-color);
+	margin-left: 3px;
 }
 .modal-checkbox {
 	appearance: none;
