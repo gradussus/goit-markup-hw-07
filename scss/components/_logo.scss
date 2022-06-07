@@ -5,16 +5,15 @@
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-decoration: none;
-
-    &--header {
-        color: #000000;
-        margin-right: 93px;
 }
-&--footer {
+.logo__web {
+	color: var(--accent-color);
+}
+.logo__header {
+	color: #000000;
+	margin-right: 93px;
+}
+.logo__footer {
 	color: var(--white);
 	margin-bottom: 30px;
-}
-}
-.web-in-logo {
-	color: var(--accent-color);
 }

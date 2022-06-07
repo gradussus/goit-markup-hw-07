@@ -34,7 +34,6 @@
 	color: var(--accent-color);
 }   
 }
-
 .main-nav__link--current::after {
 	content: "";
 	display: inline-block;
@@ -66,8 +65,6 @@
         color: var(--accent-color);
     }
     }
-
-
 .contacts-header__icon {
 	fill: currentColor;
 	margin-right: 10px;
